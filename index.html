@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="fr">
+<html class="no-js" lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -24,9 +24,15 @@
       <h1 class="col-9 col-md-6 col-lg-8">Blog Tech</h1>
       <nav class="hidden-sm-down col-md-5 col-lg-3">
         <ul>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
+          <li>
+            <a href="#"></a>
+          </li>
+          <li>
+            <a href="#"></a>
+          </li>
+          <li>
+            <a href="#"></a>
+          </li>
         </ul>
       </nav>
       <p id="dateA" class="col-5"></p>
@@ -43,238 +49,284 @@
       <section class="row col-12 col-lg-8">
         <h2></h2>
 
-        <ul>
-          <li><button></button></li>
-          <li><button></button></li>
-          <li><button></button></li>
-          <li><button></button></li>
+        <ul class="selectCat">
+          <li><button onclick="tabChange(3)">All</button></li>
+          <li><button onclick="tabChange(0)">Only hw</button></li>
+          <li><button onclick="tabChange(1)">Only sw</button></li>
+          <li><button onclick="tabChange(2)">Only dev</button></li>
         </ul>
 
-        <article class="row">
-          <h3 class="col-12"></h3>
-          <h4 class="col-6"></h4>
+        <article class="row col-12 sw dev">
+          <h3 class="col-12">reCAPTCHA Android API launched to enable safer Internet usage on Android mobiles</h3>
+          <h4 class="col-6">By Blog Tech</h4>
           <p class="categories col-5"></p>
-          <p class="articleP col-12 col-md-8"></p>
+          <p class="articleP col-12 col-md-8">Google has announced the launch of the first reCAPTCHA Android API as part of Google Play Services, aiming to better tell humans and bots apart on mobile.<br>The older versions of reCAPTCHA have been refined to create a version that can provide
+            interruption-free, streamlined user experience – the Invisible reCAPTCHA in March 2017 – which means users can go through sites automatically. The API will utilise the newest Invisible reCAPTCHA technology, with it also being included with
+            Google SafetyNet, which enables mobile developers to perform device and user attestations in the same API to tackle security risks of their apps more efficiently. This enhances the protection capabilities of Google Play Protect to monitor
+            for potentially harmful applications, device encryption, and regular security updates.<br>“The journey of reCAPTCHA continues: we’ll make the Internet safer and easier to use for everyone (except bots),” wrote Wei Liu, product manager.</p>
           <figure class="col-md-4 hidden-sm-down">
-            <img src="" alt="" id="img1">
+            <img src="img/articles/article1.png" alt="reCAPTCHA Android API launched" id="img1">
             <figcaption>
               <p class="displayAlt" id="art1"></p>
             </figcaption>
           </figure>
-          <a href="" class="comments col-5"></a>
+          <a href="" class="comments col-5">Commentaires</a>
         </article>
 
-        <article class="row">
-          <h3 class="col-12"></h3>
-          <h4 class="col-6"></h4>
+        <article class="row col-12 dev">
+          <h3 class="col-12">Apple developers break $70 billion earnings</h3>
+          <h4 class="col-6">By Blog Tech</h4>
           <p class="categories col-5"></p>
-          <p class="articleP col-12 col-md-8"></p>
+          <p class="articleP col-12 col-md-8">Apple has announced developers total earnings from the App Store have now crossed $70 billion and the company is expanding Swift Playgrounds to educate the next generation of developers. In the past twelve months alone, downloads in the App
+            Store have grown over 70 percent.
+            <br>“People everywhere love apps and our customers are downloading them in record numbers,” said Philip Schiller, Apple’s senior Vice President of Worldwide Marketing. He added, “Seventy billion dollars earned by developers is simply mind-blowing.
+            We are amazed at all of the great new apps our developers create and can’t wait to see them again next week at our Worldwide Developers Conference.”
+            <br>Most of this growth has been driven by the ‘Gaming’ and ‘Entertainment’ categories.</p>
           <figure class="col-md-4 hidden-sm-down">
-            <img src="" alt="" id="img2">
+            <img src="img/articles/article2.png" alt="pple developers break $70 billion" id="img2">
             <figcaption>
               <p class="displayAlt" id="art2"></p>
             </figcaption>
           </figure>
-          <a href="" class="comments col-5"></a>
+          <a href="" class="comments col-5">Commentaires</a>
         </article>
 
-        <article class="row">
-          <h3 class="col-12"></h3>
-          <h4 class="col-6"></h4>
+        <article class="row col-12 dev hw">
+          <h3 class="col-12">Google helps developers take VR ideas from a Daydream to reality</h3>
+          <h4 class="col-6">By Blog Tech</h4>
           <p class="categories col-5"></p>
-          <p class="articleP col-12 col-md-8"></p>
+          <p class="articleP col-12 col-md-8">Google made several big VR announcements during its annual I/O developer conference including the launch of new tools which aim to further improve the quality of content.
+            <br>The VR industry has matured significantly over the past year – so much that BAFTA has rightly begun recognising some of the best examples alongside its renowned awards for film and TV. But for every good example, if we’re honest, there
+            are more terrible examples as designers and developers get to grips with this relatively new category.
+            <br>Google plans on making VR development easier while also improving the quality of content in a variety of ways. The first is with an ‘Instant Preview’ feature which reduces the amount of time (and subsequent frustration) it takes for a
+            developer to preview changes made to their code.</p>
           <figure class="col-md-4 hidden-sm-down">
-            <img src="" alt="" id="img3">
+            <img src="img/articles/article3.png" alt="Google helps developers" id="img3">
             <figcaption>
               <p class="displayAlt" id="art3"></p>
             </figcaption>
           </figure>
-          <a href="" class="comments col-5"></a>
+          <a href="" class="comments col-5">Commentaires</a>
         </article>
 
-        <article class="row">
-          <h3 class="col-12"></h3>
-          <h4 class="col-6"></h4>
+        <article class="row col-12 dev sw">
+          <h3 class="col-12">IFTTT allows individual developers to build applets</h3>
+          <h4 class="col-6">By Blog Tech</h4>
           <p class="categories col-5"></p>
-          <p class="articleP col-12 col-md-8"></p>
+          <p class="articleP col-12 col-md-8">IFTTT has become invaluable for connecting various products and services together, but it was limited to its large partners in the past. Today, however, the platform is opening its virtual doors to individual developers to build and publish
+            applets for anyone. For those uninitiated, IFTTT (If This Then That) allows people to create ‘recipes’ which help to maximise the potential of products and services. For example, a high carbon dioxide level detected by a Netatmo Weather Station
+            at home could result in your Phillips Hue lights blinking a few times or altering colour to remind you to open a window.
+            <br>"Makers will be able to publish and show off their creations on dedicated profile pages."
+            <br>Last August, IFTTT announced it would allow third-party companies to build their own apps and services using the IFTTT partner platform. The initial partners included Adobe and smart doorbell manufacturer Ring. More recently, Dominos jumped
+            on board to have smart home devices such as Hue lights update customers on the progress of their pizza delivery.</p>
           <figure class="col-md-4 hidden-sm-down">
-            <img src="" alt="" id="img4">
+            <img src="img/articles/article4.png" alt="IFTTT allows individual developers" id="img4">
             <figcaption>
               <p class="displayAlt" id="art4"></p>
             </figcaption>
           </figure>
-          <a href="" class="comments col-5"></a>
+          <a href="" class="comments col-5">Commentaires</a>
         </article>
 
-        <article class="row">
-          <h3 class="col-12"></h3>
-          <h4 class="col-6"></h4>
+        <article class="row col-12 dev">
+          <h3 class="col-12">Stack Overflow launches new mobile app and developer tool</h3>
+          <h4 class="col-6">By Blog Tech</h4>
           <p class="categories col-5"></p>
-          <p class="articleP col-12 col-md-8"></p>
+          <p class="articleP col-12 col-md-8">Stack Overflow has launched its official mobile application for Android and iOS platforms. The Android version of the app although fully-functional is currently in beta, with changes to user interface underway.
+            <br>The Stack Overflow app enables developers to view, ask, answer, comment, draft questions, flag and vote on questions while on the go. Developers are kept updated about the status of the questions thorough push notifications. The app is
+            different from the already existing Stack Exchange app in that it contains Stack Overflow questions and answers. The notifications for both the apps come separately and launch in their respective applications.
+            <br>Stack Overflow has also launched Stack Overflow Trends, a tool to analyse ongoing and past trends in developer activities in mobile-related technologies. It has learned that Android was the most discussed topic on their platform after
+            the launch of Android Studio IDE in 2013.</p>
           <figure class="col-md-4 hidden-sm-down">
-            <img src="" alt="" id="img5">
+            <img src="img/articles/article5.png" alt="Stack Overflow launches new mobile app" id="img5">
             <figcaption>
               <p class="displayAlt" id="art5"></p>
             </figcaption>
           </figure>
-          <a href="" class="comments col-5"></a>
+          <a href="" class="comments col-5">Commentaires</a>
         </article>
 
-        <article class="row">
-          <h3 class="col-12"></h3>
-          <h4 class="col-6"></h4>
+        <article class="row col-12 hw sw">
+          <h3 class="col-12">Raspberry Pi developers can now access Google’s AI – if they purchase the Voice HAT</h3>
+          <h4 class="col-6">By Blog Tech</h4>
           <p class="categories col-5"></p>
-          <p class="articleP col-12 col-md-8"></p>
+          <p class="articleP col-12 col-md-8">Popular UK-based small computer manufacturer Raspberry Pi has launched a new accessory which provides developers with access to Google’s advanced AI.
+            <br>Artificial intelligence has received a renewed focus over the past few years; primarily due to the emergence of the IoT. Just earlier today, Amazon announced plans for a UK expansion dedicated to AI and machine-learning which will see
+            400 “machine learning scientists, knowledge engineers, data scientists, mathematical modelers, speech scientists, and software engineers” being recruited to the company’s R&D centre in Cambridge.
+            <br>With increasing competition also heating up from the likes of Microsoft, Baidu, and Apple, it’s clear the race to become a leader in AI is heating up. Today’s announcement offers a cheap method for the more than 12.5 million Raspberry
+            Pi owners to get started with building smart devices which utilise Google’s AI.</p>
           <figure class="col-md-4 hidden-sm-down">
-            <img src="" alt="" id="img6">
+            <img src="img/articles/article6.png" alt="Raspberry Pi developers can access GoogleAI" id="img6">
             <figcaption>
               <p class="displayAlt" id="art6"></p>
             </figcaption>
           </figure>
-          <a href="" class="comments col-5"></a>
+          <a href="" class="comments col-5">Commentaires</a>
         </article>
 
-        <article class="row">
-          <h3 class="col-12"></h3>
-          <h4 class="col-6"></h4>
+        <article class="row col-12 hw">
+          <h3 class="col-12">Algoriddim shows off Microsoft’s Bridge capabilities with port of djay Pro</h3>
+          <h4 class="col-6">By Blog Tech</h4>
           <p class="categories col-5"></p>
-          <p class="articleP col-12 col-md-8"></p>
+          <p class="articleP col-12 col-md-8">App developer Algoriddim has shown off the capabilities of Microsoft’s iOS app porting tool, Bridge, with the release of their complex djay Pro app on Windows 10.
+            <br>The app store of iOS has long been the envy of Windows fans. Microsoft has attempted to lure app developers into bringing their iOS apps to Windows 10 with the release of their ‘Bridge’ porting tool which makes it relatively trivial to
+            bring apps from iOS over to Windows.
+            <br>“We’re thrilled to unveil djay Pro for Windows,” said Karim Morsy, CEO of Algoriddim. “Our mission has been to open up DJing to everyone. By introducing our app to Windows users for the first time, djay Pro has become a truly universal,
+            cross-platform solution for all DJs. With direct access to Spotify and a native Windows 10 look and feel, djay Pro is the ultimate performance tool to mix music on Windows.”</p>
           <figure class="col-md-4 hidden-sm-down">
-            <img src="" alt="" id="img7">
+            <img src="img/articles/article7.jpg" alt="Algoriddim shows off Microsoft’s Bridge capabilities" id="img7">
             <figcaption>
               <p class="displayAlt" id="art7"></p>
             </figcaption>
           </figure>
-          <a href="" class="comments col-5"></a>
+          <a href="" class="comments col-5">Commentaires</a>
         </article>
 
-        <article class="row">
-          <h3 class="col-12"></h3>
-          <h4 class="col-6"></h4>
+        <article class="row col-12 hw dev">
+          <h3 class="col-12">Android Things Developer Preview 3 is out with full support for Bluetooth and USB</h3>
+          <h4 class="col-6">By Blog Tech</h4>
           <p class="categories col-5"></p>
-          <p class="articleP col-12 col-md-8"></p>
+          <p class="articleP col-12 col-md-8">The third major developer preview of Android Things is now out and it adds full support for vital connectivity options.
+            <br>Bluetooth remains important for many IoT deployments and today’s addition to Google’s platform will be welcome news for many developers. First noted back in February, the latest developer preview adds support for Android’s existing APIs
+            for both standard Bluetooth and its BLE (Bluetooth Low Energy) sibling. "Now, applications designed for Android Things can interface with custom USB devices"
+            <br>Google wants Android Things to be a simple platform for developers to build IoT applications using their skills for Google’s popular mobile operating system.</p>
           <figure class="col-md-4 hidden-sm-down">
-            <img src="" alt="" id="img8">
+            <img src="img/articles/article8.jpg" alt="Android Things Developer Preview 3" id="img8">
             <figcaption>
               <p class="displayAlt" id="art8"></p>
             </figcaption>
           </figure>
-          <a href="" class="comments col-5"></a>
+          <a href="" class="comments col-5">Commentaires</a>
         </article>
 
-        <article class="row">
-          <h3 class="col-12"></h3>
-          <h4 class="col-6"></h4>
+        <article class="row col-12 dev">
+          <h3 class="col-12">A certification program from Google has launched for mobile site developers</h3>
+          <h4 class="col-6">By Blog Tech</h4>
           <p class="categories col-5"></p>
-          <p class="articleP col-12 col-md-8"></p>
+          <p class="articleP col-12 col-md-8">Google has announced the launch of a new certification programme for mobile site developers to prove their worth.
+            <br>The new exam covers various aspects of mobile website development from the basics of why mobile-optimised sites matter, all the way to methods of improving mobile site speed, the importance of optimal UX design, and topics such as progressive
+            web apps.
+            <br>Passing the exam allows you to promote yourself with the honour of being a Google accredited mobile site developer who has “demonstrated ability to build and optimise high-quality sites”</p>
           <figure class="col-md-4 hidden-sm-down">
-            <img src="" alt="" id="img9">
+            <img src="img/articles/article9.jpg" alt="" id="img9">
             <figcaption>
               <p class="displayAlt" id="art9"></p>
             </figcaption>
           </figure>
-          <a href="" class="comments col-5"></a>
+          <a href="" class="comments col-5">Commentaires</a>
         </article>
 
-        <article class="row">
-          <h3 class="col-12"></h3>
-          <h4 class="col-6"></h4>
+        <article class="row col-12 sw">
+          <h3 class="col-12">Google takes its Optimize tools for website A/B testing out of beta</h3>
+          <h4 class="col-6">By Blog Tech</h4>
           <p class="categories col-5"></p>
-          <p class="articleP col-12 col-md-8"></p>
+          <p class="articleP col-12 col-md-8">Google has removed the beta tag from its Optimize tools for A/B website testing as part of today’s global launch.
+            <br>Optimize and Optimize 360 first came on the scene back in 2015 when a limited beta was launched to offer a lucky few additional help with their websites. Running on top of Google Analytics, the Google Optimize tool allows developers to
+            see which versions of their website receive the best reception based on a set objective.
+            <br>“We love the fact that Optimize 360 seamlessly integrates with the products we already use and depend on to make critical business decisions,” says Andrew Duffle, Director of Analytics, APMEX. “The ease and speed of setting up tests have
+            really opened doors for us: with Optimize 360, our data science and marketing teams are now able to rapidly prototype experiments that combine our own CRM data in BigQuery with our Analytics 360 audiences to deliver truly personal web experiences
+            for our customers.”</p>
           <figure class="col-md-4 hidden-sm-down">
-            <img src="" alt="" id="img10">
+            <img src="img/articles/article10.png" alt="" id="img10">
             <figcaption>
               <p class="displayAlt" id="art10"></p>
             </figcaption>
           </figure>
-          <a href="" class="comments col-5"></a>
+          <a href="" class="comments col-5">Commentaires</a>
         </article>
 
-        <article class="row">
-          <h3 class="col-12"></h3>
-          <h4 class="col-6"></h4>
+        <article class="row col-12 dev">
+          <h3 class="col-12">New API launch aims to unify blockchain and game development</h3>
+          <h4 class="col-6">By Blog Tech</h4>
           <p class="categories col-5"></p>
-          <p class="articleP col-12 col-md-8"></p>
+          <p class="articleP col-12 col-md-8">GameCredits Inc, an IT and finance company ‘with a mission to deliver blockchain-based products to a mass market in the gaming industry’, has announced the launch of a free API to enable developers to offer its cryptocurrency for in-game payments.
+            <br>The blockchain, a distributed database which theoretically offers more secure data transfer across payments and potentially other applications, is being taken to a wider market base for the first time with this release, the company claims.
+            “GameCredits strives to provide game developers and gamers with a mutually beneficial solution they equally deserve,” the company notes on its API page.
+            <br>The company claims that developers who go down their route can increase revenue by 20%, eliminate chargebacks, and open up various new geographical areas for payment. GameCredits partnered with Datcroft in November, and adds that after
+            this partnership its API has been beefed up to now be able to support a transaction capacity of 70,000 users per second.</p>
           <figure class="col-md-4 hidden-sm-down">
-            <img src="" alt="" id="img11">
+            <img src="img/articles/article11.png" alt="" id="img11">
             <figcaption>
               <p class="displayAlt" id="art11"></p>
             </figcaption>
           </figure>
-          <a href="" class="comments col-5"></a>
+          <a href="" class="comments col-5">Commentaires</a>
         </article>
 
-        <article class="row">
-          <h3 class="col-12"></h3>
-          <h4 class="col-6"></h4>
+        <article class="row col-12 dev">
+          <h3 class="col-12">Game development industry braces for Brexit in UKIE report</h3>
+          <h4 class="col-6">By Blog Tech</h4>
           <p class="categories col-5"></p>
-          <p class="articleP col-12 col-md-8"></p>
+          <p class="articleP col-12 col-md-8">With the government due to begin the two-year Brexit negotiations at the end of this month, an extensive report has been published by UKIE on how the games industry is bracing for the worst case scenario.
+            <br>Brexit has brought a period of uncertainty that has split the nation on whether it will ultimately leave the country better or worse off. Record levels of investment and employment paint a positive outlook about the resilience of the UK
+            economy, but there are more factors at play which could go right or wrong for the nation.
+            <br>"We have a strong foundation on which to build, but must ensure we achieve a positive outcome from the negotiations to secure the continued growth of the British games industry," says Chris White MP, Chair of the APPG for Video Games.</p>
           <figure class="col-md-4 hidden-sm-down">
-            <img src="" alt="" id="img12">
+            <img src="img/articles/article12.png" alt="" id="img12">
             <figcaption>
               <p class="displayAlt" id="art12"></p>
             </figcaption>
           </figure>
-          <a href="" class="comments col-5"></a>
+          <a href="" class="comments col-5">Commentaires</a>
         </article>
 
-        <article class="row">
+        <article class="row col-12">
           <h3 class="col-12"></h3>
-          <h4 class="col-6"></h4>
+          <h4 class="col-6">By Blog Tech</h4>
           <p class="categories col-5"></p>
           <p class="articleP col-12 col-md-8"></p>
           <figure class="col-md-4 hidden-sm-down">
-            <img src="" alt="" id="img13">
+            <img src="img/articles/article.png" alt="" id="img13">
             <figcaption>
               <p class="displayAlt" id="art13"></p>
             </figcaption>
           </figure>
-          <a href="" class="comments col-5"></a>
+          <a href="" class="comments col-5">Commentaires</a>
         </article>
 
-        <article class="row">
+        <article class="row col-12">
           <h3 class="col-12"></h3>
-          <h4 class="col-6"></h4>
+          <h4 class="col-6">By Blog Tech</h4>
           <p class="categories col-5"></p>
           <p class="articleP col-12 col-md-8"></p>
           <figure class="col-md-4 hidden-sm-down">
-            <img src="" alt="" id="img14">
+            <img src="img/articles/article.png" alt="" id="img14">
             <figcaption>
               <p class="displayAlt" id="art14"></p>
             </figcaption>
           </figure>
-          <a href="" class="comments col-5"></a>
+          <a href="" class="comments col-5">Commentaires</a>
         </article>
 
-        <article class="row">
+        <article class="row col-12">
           <h3 class="col-12"></h3>
-          <h4 class="col-6"></h4>
+          <h4 class="col-6">By Blog Tech</h4>
           <p class="categories col-5"></p>
           <p class="articleP col-12 col-md-8"></p>
           <figure class="col-md-4 hidden-sm-down">
-            <img src="" alt="" id="img15">
+            <img src="img/articles/article.png" alt="" id="img15">
             <figcaption>
               <p class="displayAlt" id="art15"></p>
             </figcaption>
           </figure>
-          <a href="" class="comments col-5"></a>
+          <a href="" class="comments col-5">Commentaires</a>
         </article>
 
-        <article class="row">
+        <article class="row col-12">
           <h3 class="col-12"></h3>
-          <h4 class="col-6"></h4>
+          <h4 class="col-6">By Blog Tech</h4>
           <p class="categories col-5"></p>
           <p class="articleP col-12 col-md-8"></p>
           <figure class="col-md-4 hidden-sm-down">
-            <img src="" alt="" id="img16">
+            <img src="img/articles/article.png" alt="" id="img16">
             <figcaption>
               <p class="displayAlt" id="art16"></p>
             </figcaption>
           </figure>
-          <a href="" class="comments col-5"></a>
+          <a href="" class="comments col-5">Commentaires</a>
         </article>
 
-        <aside class="asideSection row">
+        <aside class="asideSection row col-md-12 hidden-sm-down">
           <img src="" alt="PUB">
           <img src="" alt="PUB">
           <img src="" alt="PUB">
@@ -286,9 +338,15 @@
         <a href="#"><img src="" alt="PUB"></a>
         <nav>
           <ul>
-            <li><a href="facebook.fr"><img src="" alt=""></a></li>
-            <li><a href="twitter.fr"><img src="" alt=""></a></li>
-            <li><a href="googleplus.fr"><img src="" alt=""></a></li>
+            <li>
+              <a href="facebook.fr"><img src="" alt=""></a>
+            </li>
+            <li>
+              <a href="twitter.fr"><img src="" alt=""></a>
+            </li>
+            <li>
+              <a href="googleplus.fr"><img src="" alt=""></a>
+            </li>
           </ul>
         </nav>
       </aside>
@@ -308,9 +366,12 @@
       <p>Copyright</p>
       <nav>
         <ul>
-          <li><a href=""><img src="" alt=""></a>
-          <li><a href=""><img src="" alt=""></a>
-          <li><a href=""><img src="" alt=""></a>
+          <li>
+            <a href=""><img src="" alt=""></a>
+            <li>
+              <a href=""><img src="" alt=""></a>
+              <li>
+                <a href=""><img src="" alt=""></a>
         </ul>
       </nav>
     </div>

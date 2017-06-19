@@ -1,8 +1,7 @@
 // displays the date/time on load of page
 var dateAj = new Date();
 var minutesAj = dateAj.getMinutes()>10 ? dateAj.getMinutes() : ("0" + dateAj.getMinutes());
-document.getElementById("dateA").innerHTML = "Le " + dateAj.getDate() + " / " + dateAj.getMonth() + " / " + dateAj.getFullYear() + " - " + dateAj.getHours() + "h" + minutesAj;
-
+document.getElementById("dateA").innerHTML = "Le " + dateAj.getDate() + " / " + (dateAj.getMonth()+1) + " / " + dateAj.getFullYear() + " - " + dateAj.getHours() + "h" + minutesAj;
 // check the categories depending on what is selected and send what's to be done to classChange function
 function tabChange(x) {
   var articles = document.getElementsByTagName('article');
@@ -15,6 +14,7 @@ function tabChange(x) {
     } else {
       classChange(articles[i], j, 1);
     }
+    console.log(j);
   }
 }
 
@@ -23,9 +23,11 @@ function classChange(art, j, n) {
   if (j <= 1 && n == 0) {
     art.classList.remove("smallArticle");
     art.classList.remove("hideArticle");
+    art.classList.remove("col-md-6");
     art.style.order = j-4;
   } else if (j > 1 && n == 0) {
     art.classList.add("smallArticle");
+    art.classList.add("col-md-6");
     art.classList.remove("hideArticle");
     art.style.order = 0;
   } else {
@@ -35,8 +37,8 @@ function classChange(art, j, n) {
 
 // Displays the alt attribute of the image inside a p element thats displayed over the image
 function imgHover(th, z) {
-  var art = "art" + th.id[3];
-  var img = "img" + th.id[3];
+  var art = "art" + th.id.substr(3);
+  var img = "img" + th.id.substr(3);
   if (z == 1) {
     var alt = document.getElementById(img).alt;
     document.getElementById(art).innerHTML = alt;
