@@ -18,13 +18,23 @@
 
   <!-- ################ HEADER - Start ################ -->
 
-  header>h1+(nav>ul>li*3>a)+p>span
+  <header>
+    <h1></h1>
+    <nav>
+      <ul>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+      </ul>
+    </nav>
+    <p><span></span></p>
+  </header>
 
   <!-- ################ HEADER - End ################ -->
 
   <!-- ################ MAIN - Start ################ -->
 
-  main.container>div.row>(ul>li*4>button)+(article*20>h2+h3+p.categories+p+(figure>img#img$+figcaption>p.displayAlt#art$)+a.comments)+aside.asideMain>img*3
+  main.container>div.row>section.row>h2+(ul>li*4>button)+(article*20>h2+h3+p.categories+p+(figure>img#img$+figcaption>p.displayAlt#art$)+a.comments)+aside.asideMain>img*3
   aside.asideDesktop>nav>a>img^nav>ul>li*3>a>img
 
   <!-- ################ MAIN - End ################ -->
@@ -44,6 +54,12 @@
   <script src="js/bootstrap.js"></script>
 <!-- ############## JS sources ############## -->
 
+  <script>
+    // Scripts loaded on page refresh/access
+    window.onload = tabChange(3);
+    window.onload = tempsP();
+  </script>
+  
 </body>
 
 </html>
