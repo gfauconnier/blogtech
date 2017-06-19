@@ -1,8 +1,23 @@
-article.hideArticle {display: none;}
+article {width: 90vw;}
 
+article.hideArticle,
+.smallArticle h4, .smallArticle figure, .smallArticle a {
+  display: none;
+}
+
+article.smallArticle {
+  height: 200px;
+}
+
+.smallArticle p.articleP {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
 
 @media (min-width: 768px) {
   .asideSection {order: -2;}
+  .smallArticle {width: 45vw;}
 }
 
 @media (min-width: 992px) {
