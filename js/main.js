@@ -1,6 +1,7 @@
 // displays the date/time on load of page
 var dateAj = new Date();
-document.getElementById("dateA").innerHTML = "Le " + dateAj.getDate() + " / " + dateAj.getMonth() + " / " + dateAj.getFullYear() + " - " + dateAj.getHours() + "h" + dateAj.getMinutes();
+var minutesAj = dateAj.getMinutes()>10 ? dateAj.getMinutes() : ("0" + dateAj.getMinutes());
+document.getElementById("dateA").innerHTML = "Le " + dateAj.getDate() + " / " + dateAj.getMonth() + " / " + dateAj.getFullYear() + " - " + dateAj.getHours() + "h" + minutesAj;
 
 // check the categories depending on what is selected and send what's to be done to classChange function
 function tabChange(x) {
