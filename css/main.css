@@ -8,7 +8,7 @@ article.hideArticle,
 }
 
 article.smallArticle {
-  max-height: 250px;
+  max-height: 275px;
 }
 
 .smallArticle p.articleP {
@@ -18,8 +18,14 @@ article.smallArticle {
 }
 
 @media (min-width: 768px) {
+
   .asideSection {order: -2;}
+
   article.smallArticle {width: 45vw;}
+
+  /*figure img {
+    height: 150px;
+  }*/
 }
 
 @media (min-width: 992px) {
