@@ -21,11 +21,6 @@ article.smallArticle {
 
   .asideSection {order: -2;}
 
-  article.smallArticle {width: 45vw;}
-
-  /*figure img {
-    height: 150px;
-  }*/
 }
 
 @media (min-width: 992px) {

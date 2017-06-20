@@ -2,6 +2,7 @@
 var dateAj = new Date();
 var minutesAj = dateAj.getMinutes()>10 ? dateAj.getMinutes() : ("0" + dateAj.getMinutes());
 document.getElementById("dateA").innerHTML = "Le " + dateAj.getDate() + " / " + (dateAj.getMonth()+1) + " / " + dateAj.getFullYear() + " - " + dateAj.getHours() + "h" + minutesAj;
+
 // check the categories depending on what is selected and send what's to be done to classChange function
 function tabChange(x) {
   var articles = document.getElementsByTagName('article');
