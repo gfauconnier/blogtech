@@ -15,7 +15,17 @@ function tabChange(x) {
     } else {
       classChange(articles[i], j, 1);
     }
-    console.log(j);
+  }
+  for (var i = 0; i < 4; i++) {
+    var btn = "btn" + i;
+    if (i == x) {
+      document.getElementById(btn).classList.add("btn-primary");
+      document.getElementById(btn).classList.remove("btn-secondary");
+    }
+    else {
+      document.getElementById(btn).classList.remove("btn-primary");
+      document.getElementById(btn).classList.add("btn-secondary");
+    }
   }
 }
 
