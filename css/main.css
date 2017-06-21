@@ -1,6 +1,9 @@
 h2, .selectCat {order:-4}
 
-article {width: 90vw;}
+article {
+  width: 90vw;
+  margin: 15px auto;
+}
 
 article.hideArticle,
 .smallArticle h4, .smallArticle figure, .smallArticle a {
@@ -24,5 +27,15 @@ article.smallArticle {
 }
 
 @media (min-width: 992px) {
+  .asideDesktop {
+    height: 80vh;
+  }
 
+  .asideDesktop ul {
+    list-style-type: none;
+  }
+
+  .asideDesktop ul li {
+    margin: 5px auto;
+  }
 }
