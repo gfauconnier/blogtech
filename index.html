@@ -18,26 +18,32 @@
 
   <!-- ################ HEADER - Start ################ -->
 
-  <header class="container-fluid">
-    <div class="row justify-content-start">
+  <header>
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <h1 class="navbar-brand">Blog Tech</h1>
 
-      <h1 class="col-9 col-md-6 col-lg-8">Blog Tech</h1>
-      <nav class="hidden-sm-down col-md-5 col-lg-3">
-        <ul>
-          <li>
-            <a href="#"></a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
           </li>
-          <li>
-            <a href="#"></a>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
           </li>
-          <li>
-            <a href="#"></a>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
           </li>
         </ul>
-      </nav>
-      <p id="dateA" class="col-5"></p>
-
-    </div>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Username">
+          <input class="form-control mr-sm-2" type="password" placeholder="Password">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Connect</button>
+        </form>
+      </div>
+    </nav>
   </header>
 
   <!-- ################ HEADER - End ################ -->
@@ -47,6 +53,7 @@
   <main class="container">
     <div class="row justify-content-around">
       <section class="row col-12 col-lg-9">
+        <p id="dateA"></p>
         <h2 class="col-12">Select a category :</h2>
 
         <ul class="selectCat nav nav-pills">
@@ -57,7 +64,7 @@
         </ul>
 
         <article class="col-12 card sw">
-          <h3 class="card-header">reCAPTCHA Android API launched to enable safer Internet usage on Android mobiles</h3>
+          <h3 class="card-header card-primary">reCAPTCHA Android API launched to enable safer Internet usage on Android mobiles</h3>
           <h4>By Blog Tech</h4>
           <p class="categories">Software Dev</p>
           <p class="articleP card-text">Google has announced the launch of the first reCAPTCHA Android API as part of Google Play Services, aiming to better tell humans and bots apart on mobile.<br>The older versions of reCAPTCHA have been refined to create a version that can provide
@@ -68,11 +75,11 @@
             <img src="img/articles/article1.png" alt="reCAPTCHA Android API launched" class="col-md-12" id="img1" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
             <figcaption class="displayAlt" id="art1" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
           </figure>
-          <a class="comments card-footer" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
+          <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
         </article>
 
         <article class="card col-12 dev">
-          <h3 class="card-header">Apple developers break $70 billion earnings</h3>
+          <h3 class="card-header card-primary">Apple developers break $70 billion earnings</h3>
           <h4>By Blog Tech</h4>
           <p class="categories">Dev</p>
           <p class="articleP card-text">Apple has announced developers total earnings from the App Store have now crossed $70 billion and the company is expanding Swift Playgrounds to educate the next generation of developers. In the past twelve months alone, downloads in the App
@@ -84,11 +91,11 @@
             <img src="img/articles/article2.png" alt="Apple developers break $70 billion" class="col-md-12" id="img2" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
             <figcaption class="displayAlt" id="art2" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
           </figure>
-          <a class="comments col-5" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
+          <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
         </article>
 
         <article class="card col-12 hw">
-          <h3 class="card-header">Google helps developers take VR ideas from a Daydream to reality</h3>
+          <h3 class="card-header card-primary">Google helps developers take VR ideas from a Daydream to reality</h3>
           <h4>By Blog Tech</h4>
           <p class="categories">Dev Hardware</p>
           <p class="articleP card-text">Google made several big VR announcements during its annual I/O developer conference including the launch of new tools which aim to further improve the quality of content.
@@ -100,11 +107,11 @@
             <img src="img/articles/article3.png" alt="Google helps developers" class="col-md-12" id="img3" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
             <figcaption class="displayAlt" id="art3" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
           </figure>
-          <a class="comments col-5" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
+          <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
         </article>
 
         <article class="card col-12 dev sw">
-          <h3 class="card-header">IFTTT allows individual developers to build applets</h3>
+          <h3 class="card-header card-primary">IFTTT allows individual developers to build applets</h3>
           <h4>By Blog Tech</h4>
           <p class="categories">Dev Software</p>
           <p class="articleP card-text">IFTTT has become invaluable for connecting various products and services together, but it was limited to its large partners in the past. Today, however, the platform is opening its virtual doors to individual developers to build and publish
@@ -117,11 +124,11 @@
             <img src="img/articles/article4.png" alt="IFTTT allows individual developers" class="col-md-12" id="img4" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
             <figcaption class="displayAlt" id="art4" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
           </figure>
-          <a class="comments col-5" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
+          <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
         </article>
 
         <article class="card col-12 dev">
-          <h3 class="card-header">Stack Overflow launches new mobile app and developer tool</h3>
+          <h3 class="card-header card-primary">Stack Overflow launches new mobile app and developer tool</h3>
           <h4>By Blog Tech</h4>
           <p class="categories">Dev</p>
           <p class="articleP card-text">Stack Overflow has launched its official mobile application for Android and iOS platforms. The Android version of the app although fully-functional is currently in beta, with changes to user interface underway.
@@ -133,11 +140,11 @@
             <img src="img/articles/article5.png" alt="Stack Overflow launches new mobile app" class="col-md-12" id="img5" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
             <figcaption class="displayAlt" id="art5" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
           </figure>
-          <a class="comments col-5" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
+          <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
         </article>
 
         <article class="card col-12 hw sw">
-          <h3 class="card-header">Raspberry Pi developers can now access Google’s AI – if they purchase the Voice HAT</h3>
+          <h3 class="card-header card-primary">Raspberry Pi developers can now access Google’s AI – if they purchase the Voice HAT</h3>
           <h4>By Blog Tech</h4>
           <p class="categories">Hardware Software</p>
           <p class="articleP card-text">Popular UK-based small computer manufacturer Raspberry Pi has launched a new accessory which provides developers with access to Google’s advanced AI.
@@ -149,11 +156,11 @@
             <img src="img/articles/article6.png" alt="Raspberry Pi developers can access GoogleAI" class="col-md-12" id="img6" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
             <figcaption class="displayAlt" id="art6" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
           </figure>
-          <a class="comments col-5" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
+          <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
         </article>
 
         <article class="card col-12 hw">
-          <h3 class="card-header">Algoriddim shows off Microsoft’s Bridge capabilities with port of djay Pro</h3>
+          <h3 class="card-header card-primary">Algoriddim shows off Microsoft’s Bridge capabilities with port of djay Pro</h3>
           <h4>By Blog Tech</h4>
           <p class="categories">Hardware</p>
           <p class="articleP card-text">App developer Algoriddim has shown off the capabilities of Microsoft’s iOS app porting tool, Bridge, with the release of their complex djay Pro app on Windows 10.
@@ -165,11 +172,11 @@
             <img src="img/articles/article7.jpg" alt="Algoriddim shows off Microsoft’s Bridge capabilities" class="col-md-12" id="img7" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
             <figcaption class="displayAlt" id="art7" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
           </figure>
-          <a class="comments col-5" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
+          <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
         </article>
 
         <article class="card col-12 hw dev">
-          <h3 class="card-header">Android Things Developer Preview 3 is out with full support for Bluetooth and USB</h3>
+          <h3 class="card-header card-primary">Android Things Developer Preview 3 is out with full support for Bluetooth and USB</h3>
           <h4>By Blog Tech</h4>
           <p class="categories">Hardware Dev</p>
           <p class="articleP card-text">The third major developer preview of Android Things is now out and it adds full support for vital connectivity options.
@@ -180,11 +187,11 @@
             <img src="img/articles/article8.jpg" alt="Android Things Developer Preview 3" class="col-md-12" id="img8" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
             <figcaption class="displayAlt" id="art8" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
           </figure>
-          <a class="comments col-5" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
+          <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
         </article>
 
         <article class="card col-12 dev">
-          <h3 class="card-header">A certification program from Google has launched for mobile site developers</h3>
+          <h3 class="card-header card-primary">A certification program from Google has launched for mobile site developers</h3>
           <h4>By Blog Tech</h4>
           <p class="categories">Dev</p>
           <p class="articleP card-text">Google has announced the launch of a new certification programme for mobile site developers to prove their worth.
@@ -195,11 +202,11 @@
             <img src="img/articles/article9.jpg" alt="A certification program from Google" class="col-md-12" id="img9" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
             <figcaption class="displayAlt" id="art9" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
           </figure>
-          <a class="comments col-5" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
+          <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
         </article>
 
         <article class="card col-12 sw">
-          <h3 class="card-header">Google takes its Optimize tools for website A/B testing out of beta</h3>
+          <h3 class="card-header card-primary">Google takes its Optimize tools for website A/B testing out of beta</h3>
           <h4>By Blog Tech</h4>
           <p class="categories">Software</p>
           <p class="articleP card-text">Google has removed the beta tag from its Optimize tools for A/B website testing as part of today’s global launch.
@@ -212,11 +219,11 @@
             <img src="img/articles/article10.png" alt="Google takes its Optimize tools" class="col-md-12" id="img10" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
             <figcaption class="displayAlt" id="art10" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
           </figure>
-          <a class="comments col-5" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
+          <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
         </article>
 
         <article class="card col-12 dev">
-          <h3 class="card-header">New API launch aims to unify blockchain and game development</h3>
+          <h3 class="card-header card-primary">New API launch aims to unify blockchain and game development</h3>
           <h4>By Blog Tech</h4>
           <p class="categories">Dev</p>
           <p class="articleP card-text">GameCredits Inc, an IT and finance company ‘with a mission to deliver blockchain-based products to a mass market in the gaming industry’, has announced the launch of a free API to enable developers to offer its cryptocurrency for in-game payments.
@@ -228,11 +235,11 @@
             <img src="img/articles/article11.png" alt="New API launch aims to unify blockchain" class="col-md-12" id="img11" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
             <figcaption class="displayAlt" id="art11" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
           </figure>
-          <a class="comments col-5" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
+          <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
         </article>
 
         <article class="card col-12 dev">
-          <h3 class="card-header">Game development industry braces for Brexit in UKIE report</h3>
+          <h3 class="card-header card-primary">Game development industry braces for Brexit in UKIE report</h3>
           <h4>By Blog Tech</h4>
           <p class="categories">Dev</p>
           <p class="articleP card-text">With the government due to begin the two-year Brexit negotiations at the end of this month, an extensive report has been published by UKIE on how the games industry is bracing for the worst case scenario.
@@ -243,11 +250,11 @@
             <img src="img/articles/article12.png" alt="Game development industry braces for Brexit" class="col-md-12" id="img12" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
             <figcaption class="displayAlt" id="art12" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
           </figure>
-          <a class="comments col-5" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
+          <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
         </article>
 
         <article class="card col-12 sw dev">
-          <h3 class="card-header">Torvalds calls out developers who 'screw all the rules</h3>
+          <h3 class="card-header card-primary">Torvalds calls out developers who 'screw all the rules</h3>
           <h4>By Blog Tech</h4>
           <p class="categories">Software Dev</p>
           <p class="articleP card-text">Linus Torvalds has taken aim at developers who ‘screw all the rules and processes’ in place for Linux merges.
@@ -259,11 +266,11 @@
             <img src="img/articles/article13.png" alt="Torvalds calls out developers" class="col-md-12" id="img13" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
             <figcaption class="displayAlt" id="art13" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
           </figure>
-          <a class="comments col-5" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
+          <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
         </article>
 
         <article class="card col-12 hw">
-          <h3 class="card-header">Atari seems to be making a brand new console – and wants developers</h3>
+          <h3 class="card-header card-primary">Atari seems to be making a brand new console – and wants developers</h3>
           <h4>By Blog Tech</h4>
           <p class="categories">Hardware</p>
           <p class="articleP card-text">Amidst all the gaming news coming out of E3, the most surprising news of the week is that it seems Atari will be coming back into the spotlight with a brand new console.
@@ -275,11 +282,11 @@
             <img src="img/articles/article14.png" alt="Atari seems to make a console" class="col-md-12" id="img14" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
             <figcaption class="displayAlt" id="art14" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
           </figure>
-          <a class="comments col-5" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
+          <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
         </article>
 
         <article class="card col-12 hw">
-          <h3 class="card-header">Opinion: Xbox is making PlayStation appear villainous</h3>
+          <h3 class="card-header card-primary">Opinion: Xbox is making PlayStation appear villainous</h3>
           <h4>By Blog Tech</h4>
           <p class="categories">Hardware</p>
           <p class="articleP card-text">Sony’s policies and attitude to rival platforms are holding PlayStation back, while Xbox is now embracing the entire gaming community.
@@ -290,11 +297,11 @@
             <img src="img/articles/article15.jpg" alt="XBox vs Playstation" class="col-md-12" id="img15" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
             <figcaption class="displayAlt" id="art15" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
           </figure>
-          <a class="comments col-5" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
+          <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
         </article>
 
         <article class="card col-12 dev">
-          <h3 class="card-header">Python, Node.js and Rust most loved languages</h3>
+          <h3 class="card-header card-primary">Python, Node.js and Rust most loved languages</h3>
           <h4>By Blog Tech</h4>
           <p class="categories">Dev</p>
           <p class="articleP card-text">Almost a third of current professional developers say their formal education was not important to their career success, with Python, Node.js and Rust continuing to grow in popularity, according to the latest Stack Overflow survey.
@@ -305,7 +312,7 @@
             <img src="img/articles/article16.png" alt="Python, Node.js and Rust most loved languages" class="col-md-12" id="img16" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
             <figcaption class="displayAlt" id="art16" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
           </figure>
-          <a class="comments col-5" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
+          <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
         </article>
 
         <aside class="asideSection row col-md-12 hidden-sm-down justify-content-between">
@@ -316,46 +323,41 @@
 
       </section>
 
-<!-- ################## Aside only for desktop ######################### -->
-      <aside class="asideDesktop column hidden-md-down col-lg-3">
+      <!-- ################## Aside only for desktop ######################### -->
+      <aside class="asideDesktop hidden-md-down col-lg-3 card">
         <a href="#"><img src="img/pub/pub1.jpeg" alt="PUB"></a>
-        <!-- <nav>
-          <ul>
-            <li> -->
-              <a href="facebook.fr"><img src="img/Facebook.svg" alt="Facebook" height="50px"></a>
-            <!-- </li>
-            <li> -->
-              <a href="twitter.fr"><img src="img/Twitter.svg" alt="Twitter" height="50px"></a>
-            <!-- </li>
-            <li> -->
-              <a href="googleplus.fr"><img src="img/Google.svg" alt="Google plus" height="50px"></a>
-            <!-- </li>
-          </ul>
-        </nav> -->
+        <nav class="nav flex-column align-items-baseline">
+          <a href="#"><img src="img/uparrow.svg" height="50px" alt="Home"></a>
+          <p>Follow us :</p>
+          <a href="facebook.fr"><img src="img/Facebook.svg" alt="Facebook" height="50px"></a>
+          <a href="twitter.fr"><img src="img/Twitter.svg" alt="Twitter" height="50px"></a>
+          <a href="googleplus.fr"><img src="img/Google.svg" alt="Google plus" height="50px"></a>
+        </nav>
+
       </aside>
-  <!-- ################## Aside only for desktop ######################### -->
+      <!-- ################## Aside only for desktop ######################### -->
 
     </div>
-<!-- ################## MODAL ######################### -->
+    <!-- ################## MODAL ######################### -->
     <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <form class="formModal" action="index.html" method="post">
             <label for="">Username : </label>
-            <input type="text" placeholder="username">
+            <input type="text" placeholder="Username">
             <label for="">Title : </label>
-            <input type="text" placeholder="sujet">
+            <input type="text" placeholder="Title">
             <label for="">Message : </label>
             <textarea name="" id="" cols="30" rows="10"></textarea>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary" onclick="confirmA()">Save changes</button>
+              <button type="button" class="btn btn-primary" onclick="confirmA()">Send</button>
             </div>
           </form>
         </div>
       </div>
     </div>
-<!-- ################## MODAL ######################### -->
+    <!-- ################## MODAL ######################### -->
 
 
   </main>
@@ -365,23 +367,16 @@
 
   <!-- ################ FOOTER - Start ################ -->
 
-  <footer class="container-fluid">
-    <div class="row">
+  <footer class="container-fluid navbar-inverse bg-inverse">
+    <div class="row justify-content-between align-items-baseline">
 
       <p id="temps"></p>
       <p>Copyright</p>
-      <nav>
-        <ul>
-          <li>
-            <a href="facebook.fr"><img src="img/Facebook.svg" alt="Facebook" height="32px"></a>
-          </li>
-          <li>
-            <a href="twitter.fr"><img src="img/Twitter.svg" alt="Twitter" height="32px"></a>
-          </li>
-          <li>
-            <a href="googleplus.fr"><img src="img/Google.svg" alt="Google plus" height="32px"></a>
-          </li>
-        </ul>
+      <nav class="row">
+        <p>Follow us : </p>
+        <a href="facebook.fr"><img src="img/Facebook.svg" alt="Facebook" height="32px"></a>
+        <a href="twitter.fr"><img src="img/Twitter.svg" alt="Twitter" height="32px"></a>
+        <a href="googleplus.fr"><img src="img/Google.svg" alt="Google plus" height="32px"></a>
       </nav>
     </div>
   </footer>

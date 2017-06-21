@@ -1,7 +1,7 @@
 // displays the date/time on load of page
 var dateAj = new Date();
 var minutesAj = dateAj.getMinutes()>10 ? dateAj.getMinutes() : ("0" + dateAj.getMinutes());
-document.getElementById("dateA").innerHTML = "Le " + dateAj.getDate() + " / " + (dateAj.getMonth()+1) + " / " + dateAj.getFullYear() + " - " + dateAj.getHours() + "h" + minutesAj;
+document.getElementById("dateA").innerHTML = dateAj.getDate() + " / " + (dateAj.getMonth()+1) + " / " + dateAj.getFullYear() + " - " + dateAj.getHours() + "h" + minutesAj;
 
 // check the categories depending on what is selected and send what's to be done to classChange function
 function tabChange(x) {
@@ -61,10 +61,10 @@ function imgHover(th, z) {
 // Displays how many seconds the user is on the page
 function tempsP() {
   var t = setTimeout("tempsP()", 1000);
-  document.getElementById("temps").innerHTML = "Temps passé : " + t + " secondes";
+  document.getElementById("temps").innerHTML = "You've been here for : " + t + " seconds";
 }
 
 // Confirm validation of articles' comments (atm not doing anything)
 function confirmA() {
-  confirm("Voulez-vous confirmer la saisie du commentaire ?");
+  confirm("Are you sure you want to send this comment ?");
 }
