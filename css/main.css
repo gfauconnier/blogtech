@@ -63,8 +63,21 @@ footer nav p, footer nav a {
   .selectCat {
     flex-direction: row;
   }
+
   .asideSection {order: -2;}
 }
+
+  figure {
+    position: relative;
+  }
+
+  figcaption {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: grey;
+    width: 70vh;
+  }
 
 
 /* ################# DESKTOP #################### */

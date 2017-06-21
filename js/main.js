@@ -61,7 +61,7 @@ function imgHover(th, z) {
 // Displays how many seconds the user is on the page
 function tempsP() {
   var t = setTimeout("tempsP()", 1000);
-  document.getElementById("temps").innerHTML = "You've been here for : " + t + " seconds";
+  document.getElementById("temps").innerHTML = "You've been here for : " + (t-1) + " seconds";
 }
 
 // Confirm validation of articles' comments (atm not doing anything)
