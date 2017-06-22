@@ -9,9 +9,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="icon" href="favicon.png">
-  <link href="css/bootstrap.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link href="<?php echo get_bloginfo('template_directory'); ?>/main.css" rel="stylesheet">
+  <link href="<?php echo get_bloginfo('template_directory'); ?>/css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/css/normalize.css">
+  <link href="<?php echo get_bloginfo('template_directory'); ?>/css/main.css" rel="stylesheet">
   <?php wp_head();?>
 </head>
 

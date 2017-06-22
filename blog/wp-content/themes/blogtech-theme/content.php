@@ -17,7 +17,7 @@
     Google SafetyNet, which enables mobile developers to perform device and user attestations in the same API to tackle security risks of their apps more efficiently. This enhances the protection capabilities of Google Play Protect to monitor
     for potentially harmful applications, device encryption, and regular security updates.<br>“The journey of reCAPTCHA continues: we’ll make the Internet safer and easier to use for everyone (except bots),” wrote Wei Liu, product manager.</p>
   <figure class="card-img hidden-sm-down row">
-    <img src="img/articles/article1.png" alt="reCAPTCHA Android API launched" class="col-md-12" id="img1" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
+    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/articles/article1.png" alt="reCAPTCHA Android API launched" class="col-md-12" id="img1" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
     <figcaption class="displayAlt" id="art1" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
   </figure>
   <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
@@ -33,7 +33,7 @@
     We are amazed at all of the great new apps our developers create and can’t wait to see them again next week at our Worldwide Developers Conference.”
     <br>Most of this growth has been driven by the ‘Gaming’ and ‘Entertainment’ categories.</p>
   <figure class="row card-img hidden-sm-down">
-    <img src="img/articles/article2.png" alt="Apple developers break $70 billion" class="col-md-12" id="img2" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
+    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/articles/article2.png" alt="Apple developers break $70 billion" class="col-md-12" id="img2" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
     <figcaption class="displayAlt" id="art2" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
   </figure>
   <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
@@ -49,7 +49,7 @@
     <br>Google plans on making VR development easier while also improving the quality of content in a variety of ways. The first is with an ‘Instant Preview’ feature which reduces the amount of time (and subsequent frustration) it takes for a
     developer to preview changes made to their code.</p>
   <figure class="row card-img hidden-sm-down">
-    <img src="img/articles/article3.png" alt="Google helps developers" class="col-md-12" id="img3" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
+    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/articles/article3.png" alt="Google helps developers" class="col-md-12" id="img3" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
     <figcaption class="displayAlt" id="art3" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
   </figure>
   <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
@@ -66,7 +66,7 @@
     <br>Last August, IFTTT announced it would allow third-party companies to build their own apps and services using the IFTTT partner platform. The initial partners included Adobe and smart doorbell manufacturer Ring. More recently, Dominos jumped
     on board to have smart home devices such as Hue lights update customers on the progress of their pizza delivery.</p>
   <figure class="row card-img hidden-sm-down">
-    <img src="img/articles/article4.png" alt="IFTTT allows individual developers" class="col-md-12" id="img4" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
+    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/articles/article4.png" alt="IFTTT allows individual developers" class="col-md-12" id="img4" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
     <figcaption class="displayAlt" id="art4" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
   </figure>
   <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
@@ -82,7 +82,7 @@
     <br>Stack Overflow has also launched Stack Overflow Trends, a tool to analyse ongoing and past trends in developer activities in mobile-related technologies. It has learned that Android was the most discussed topic on their platform after
     the launch of Android Studio IDE in 2013.</p>
   <figure class="row card-img hidden-sm-down">
-    <img src="img/articles/article5.png" alt="Stack Overflow launches new mobile app" class="col-md-12" id="img5" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
+    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/articles/article5.png" alt="Stack Overflow launches new mobile app" class="col-md-12" id="img5" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
     <figcaption class="displayAlt" id="art5" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
   </figure>
   <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
@@ -98,7 +98,7 @@
     <br>With increasing competition also heating up from the likes of Microsoft, Baidu, and Apple, it’s clear the race to become a leader in AI is heating up. Today’s announcement offers a cheap method for the more than 12.5 million Raspberry
     Pi owners to get started with building smart devices which utilise Google’s AI.</p>
   <figure class="row card-img hidden-sm-down">
-    <img src="img/articles/article6.png" alt="Raspberry Pi developers can access GoogleAI" class="col-md-12" id="img6" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
+    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/articles/article6.png" alt="Raspberry Pi developers can access GoogleAI" class="col-md-12" id="img6" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
     <figcaption class="displayAlt" id="art6" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
   </figure>
   <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
@@ -114,7 +114,7 @@
     <br>“We’re thrilled to unveil djay Pro for Windows,” said Karim Morsy, CEO of Algoriddim. “Our mission has been to open up DJing to everyone. By introducing our app to Windows users for the first time, djay Pro has become a truly universal,
     cross-platform solution for all DJs. With direct access to Spotify and a native Windows 10 look and feel, djay Pro is the ultimate performance tool to mix music on Windows.”</p>
   <figure class="row card-img hidden-sm-down">
-    <img src="img/articles/article7.jpg" alt="Algoriddim shows off Microsoft’s Bridge capabilities" class="col-md-12" id="img7" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
+    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/articles/article7.jpg" alt="Algoriddim shows off Microsoft’s Bridge capabilities" class="col-md-12" id="img7" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
     <figcaption class="displayAlt" id="art7" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
   </figure>
   <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
@@ -129,7 +129,7 @@
     for both standard Bluetooth and its BLE (Bluetooth Low Energy) sibling. "Now, applications designed for Android Things can interface with custom USB devices"
     <br>Google wants Android Things to be a simple platform for developers to build IoT applications using their skills for Google’s popular mobile operating system.</p>
   <figure class="row card-img hidden-sm-down">
-    <img src="img/articles/article8.jpg" alt="Android Things Developer Preview 3" class="col-md-12" id="img8" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
+    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/articles/article8.jpg" alt="Android Things Developer Preview 3" class="col-md-12" id="img8" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
     <figcaption class="displayAlt" id="art8" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
   </figure>
   <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
@@ -144,7 +144,7 @@
     web apps.
     <br>Passing the exam allows you to promote yourself with the honour of being a Google accredited mobile site developer who has “demonstrated ability to build and optimise high-quality sites”</p>
   <figure class="row card-img hidden-sm-down">
-    <img src="img/articles/article9.jpg" alt="A certification program from Google" class="col-md-12" id="img9" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
+    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/articles/article9.jpg" alt="A certification program from Google" class="col-md-12" id="img9" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
     <figcaption class="displayAlt" id="art9" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
   </figure>
   <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
@@ -161,7 +161,7 @@
     really opened doors for us: with Optimize 360, our data science and marketing teams are now able to rapidly prototype experiments that combine our own CRM data in BigQuery with our Analytics 360 audiences to deliver truly personal web experiences
     for our customers.”</p>
   <figure class="row card-img hidden-sm-down">
-    <img src="img/articles/article10.png" alt="Google takes its Optimize tools" class="col-md-12" id="img10" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
+    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/articles/article10.png" alt="Google takes its Optimize tools" class="col-md-12" id="img10" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
     <figcaption class="displayAlt" id="art10" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
   </figure>
   <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
@@ -177,7 +177,7 @@
     <br>The company claims that developers who go down their route can increase revenue by 20%, eliminate chargebacks, and open up various new geographical areas for payment. GameCredits partnered with Datcroft in November, and adds that after
     this partnership its API has been beefed up to now be able to support a transaction capacity of 70,000 users per second.</p>
   <figure class="row card-img hidden-sm-down">
-    <img src="img/articles/article11.png" alt="New API launch aims to unify blockchain" class="col-md-12" id="img11" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
+    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/articles/article11.png" alt="New API launch aims to unify blockchain" class="col-md-12" id="img11" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
     <figcaption class="displayAlt" id="art11" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
   </figure>
   <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
@@ -192,7 +192,7 @@
     economy, but there are more factors at play which could go right or wrong for the nation.
     <br>"We have a strong foundation on which to build, but must ensure we achieve a positive outcome from the negotiations to secure the continued growth of the British games industry," says Chris White MP, Chair of the APPG for Video Games.</p>
   <figure class="row card-img hidden-sm-down">
-    <img src="img/articles/article12.png" alt="Game development industry braces for Brexit" class="col-md-12" id="img12" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
+    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/articles/article12.png" alt="Game development industry braces for Brexit" class="col-md-12" id="img12" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
     <figcaption class="displayAlt" id="art12" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
   </figure>
   <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
@@ -208,7 +208,7 @@
     <br>With the first release candidate of Linux 4.11 now available, Torvalds took some time to vent some frustration at the quality of some code he received as part of the merge process. Some of the code he received would not even build, he
     claims, and developers were not adhering to Linux’s standard development processes.</p>
   <figure class="row card-img hidden-sm-down">
-    <img src="img/articles/article13.png" alt="Torvalds calls out developers" class="col-md-12" id="img13" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
+    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/articles/article13.png" alt="Torvalds calls out developers" class="col-md-12" id="img13" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
     <figcaption class="displayAlt" id="art13" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
   </figure>
   <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
@@ -224,7 +224,7 @@
     <br>There’s certainly an appetite for these classic games and similar consoles such as the SEGA MegaDrive have seen updated versions released with many of their games built-in to capitalise on the nostalgia many people feel. Atari, however,
     seems to be gearing up for a completely brand new console</p>
   <figure class="row card-img hidden-sm-down">
-    <img src="img/articles/article14.png" alt="Atari seems to make a console" class="col-md-12" id="img14" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
+    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/articles/article14.png" alt="Atari seems to make a console" class="col-md-12" id="img14" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
     <figcaption class="displayAlt" id="art14" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
   </figure>
   <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
@@ -239,7 +239,7 @@
     <br>Sony has long put developers first and maintained a fantastic relationship with them which continues today. Similarly, the company has also invested heavily in the gaming community with talented first-party studios like Naughty Dog and
     Guerilla Games who have released some of this generation’s most noteworthy titles.</p>
   <figure class="row card-img hidden-sm-down">
-    <img src="img/articles/article15.jpg" alt="XBox vs Playstation" class="col-md-12" id="img15" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
+    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/articles/article15.jpg" alt="XBox vs Playstation" class="col-md-12" id="img15" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
     <figcaption class="displayAlt" id="art15" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
   </figure>
   <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
@@ -254,16 +254,16 @@
     <br>With Python and Node.js going up, and Rust being the ‘most loved’ programming language among developers for the second year running, C, C# and Visual Basic slide down the rankings. 88.3% of developers on Visual Basic said they did not
     want to continue using it. According to the March 2017 TIOBE Index, C, C# and Visual Basic occupy three of the top six places.</p>
   <figure class="row card-img hidden-sm-down">
-    <img src="img/articles/article16.png" alt="Python, Node.js and Rust most loved languages" class="col-md-12" id="img16" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
+    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/articles/article16.png" alt="Python, Node.js and Rust most loved languages" class="col-md-12" id="img16" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)">
     <figcaption class="displayAlt" id="art16" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></figcaption>
   </figure>
   <a class="comments card-footer card-info" data-toggle="modal" data-target=".bd-example-modal-lg">Commentaires</a>
 </article>
 
 <aside class="asideSection row col-md-12 hidden-sm-down justify-content-between">
-  <img src="img/pub/pub1.jpeg" alt="PUB" class="md-4">
-  <img src="img/pub/pub2.png" alt="PUB" class="md-4">
-  <img src="img/pub/pub3.jpeg" alt="PUB" class="md-4">
+  <img src="<?php echo get_bloginfo('template_directory'); ?>/img/pub/pub1.jpeg" alt="PUB" class="md-4">
+  <img src="<?php echo get_bloginfo('template_directory'); ?>/img/pub/pub2.png" alt="PUB" class="md-4">
+  <img src="<?php echo get_bloginfo('template_directory'); ?>/img/pub/pub3.jpeg" alt="PUB" class="md-4">
 </aside>
 
 <!-- ################## MODAL ######################### -->

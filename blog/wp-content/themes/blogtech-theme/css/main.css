@@ -1,0 +1,104 @@
+
+/* ################# MAIN #################### */
+main {
+  margin-top: 30px;
+}
+
+p#dateA, h2, .selectCat {order:-4}
+
+article {
+  width: 90vw;
+  margin: 15px auto;
+}
+
+article.hideArticle,
+.smallArticle h4, .smallArticle figure, .smallArticle a {
+  display: none;
+}
+
+article.smallArticle {
+  max-height: 275px;
+}
+
+.smallArticle p.articleP {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.selectCat {
+  flex-direction: column;
+}
+
+.selectCat button {
+  width: 125px;
+}
+
+/* ################# MAIN - END #################### */
+
+/* ################# FOOTER #################### */
+footer {
+  color: white;
+}
+
+footer div {
+  width: 90vw;
+  margin: auto;
+  padding: 5px 30px;
+}
+
+.selectCat button,
+footer nav p, footer nav a {
+  margin: auto 5px;
+}
+
+/* ################# FOOTER - END #################### */
+
+
+/* ################# TABLET #################### */
+/* ################# TABLET #################### */
+/* ################# TABLET #################### */
+@media (min-width: 768px) {
+
+  .selectCat {
+    flex-direction: row;
+  }
+
+  .asideSection {order: -2;}
+}
+
+  figure {
+    position: relative;
+  }
+
+  figcaption {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: grey;
+    width: 70vh;
+  }
+
+
+/* ################# DESKTOP #################### */
+/* ################# DESKTOP #################### */
+/* ################# DESKTOP #################### */
+@media (min-width: 992px) {
+  .asideDesktop {
+    height: 80vh;
+    position: sticky;
+    top: 30px;
+  }
+
+  .asideDesktop nav {
+    margin: 25px auto;
+  }
+
+  .asideDesktop nav a, .asideDesktop nav p {
+    margin: 5px auto;
+  }
+
+  .asideDesktop img {
+    max-width: 100%;
+  }
+}
